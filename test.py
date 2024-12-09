@@ -1,0 +1,6 @@
+wait_str = input("あなたの体重を入力してください：")
+wait = float(wait_str)
+height_str = input("あなたの身長をメートルで入力してください：")
+height = float(height_str)
+bmi = wait / (height*height)
+print("あなたのBMIは", bmi , "です。")
